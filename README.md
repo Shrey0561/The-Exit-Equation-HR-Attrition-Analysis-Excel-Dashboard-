@@ -2,15 +2,22 @@
 This project is the first installment in a two-part HR analytics series. While Part 2- *The Loyalty Blueprint* focuses on employee retention, this first phase examines the underlying causes of attrition using descriptive analytics in Excel.
 
 ## TL;DR
-- **Goal**: Identify patterns and drivers of employee attrition using HR data
-- **Tools**: Microsoft Excel (PivotTables, Dashboard Design)
-- **Approach**: Segmented employees by department, role, experience, and satisfaction to uncover churn drivers
-- **Outcome**: Found key pain points in Sales & Overtime employees and made strategic retention suggestions
+**Problem**: High employee attrition was creating cost and operational risks; underlying drivers were unclear.
+**Process**: Used **Excel** to segment 1,470 employees by department, role, tenure, satisfaction, and workload to identify churn patterns.
+**Result**: 
+ * **High-risk areas**: Sales (20.63% attrition), overtime employees (30.53%)
+ * **Critical drivers**: Low work-life balance, low job satisfaction, lower income bands, fresh hires
+ * **Actionable takeaway**: Targeted interventions in onboarding, compensation, burnout prevention, and role support
+
+## Dashboard Preview Section
+The dashboard below summarizes key attrition metrics, including department-level churn, job role risks, and satisfaction breakdowns. This was built using Excel, enabling quick diagnosis of high-risk segments.
+
+![Dashboard Preview](dashboard_preview.png)
+
 
 ## Table of Contents
  - [Overview](#Overview)
  - [Key Questions Answered](#key-questions-answered)
- - [Dashboard Preview](#dashboard-preview-section)
  - [KPIs Tracked](#kpis-tracked)
  - [Business Insights & Strategic Recommendations](#business-insights--strategic-recommendations)
  - [Tools Used](#tools-used)
@@ -24,15 +31,10 @@ This project is the first installment in a two-part HR analytics series. While P
 Utilizing a synthetic HR dataset of 1,470 employees, this analysis identifies key attrition drivers across departments, roles, and demographic groups using Excel-based modeling.
 
 ## Key Questions Answered 
- * What are the highest-attrition departments and job roles?
+ * What are the highest attrition departments and job roles?
  * Are there demographic or workload patterns linked to exits?
  * How do satisfaction, income, and experience impact turnover?
  * Which employee cohorts are most at risk of leaving?
-
-## Dashboard Preview Section
-The dashboard below summarizes key attrition metrics, including department-level churn, job role risks, and satisfaction breakdowns. This was built using Excel, enabling quick diagnosis of high-risk segments.
-
-![Dashboard Preview](dashboard_preview.png)
 
 ## KPIs Tracked
  * **Total Attrition Rate**: 16.12%
