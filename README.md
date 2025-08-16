@@ -3,7 +3,9 @@ This project is the first installment in a two-part HR analytics series. While P
 
 ## TL;DR
 **Problem**: High employee attrition was creating cost and operational risks; underlying drivers were unclear.
+
 **Process**: Used **Excel** to segment 1,470 employees by department, role, tenure, satisfaction, and workload to identify churn patterns.
+
 **Result**: 
  * **High-risk areas**: Sales (20.63% attrition), overtime employees (30.53%)
  * **Critical drivers**: Low work-life balance, low job satisfaction, lower income bands, fresh hires
