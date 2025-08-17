@@ -92,7 +92,7 @@ Recommendation: Examine role distribution and promotion equity to investigate wh
   
 ## Case Study (Full Walkthrough)
 For a deeper look at the analysis logic, segmentation methodology, and strategic recommendations, explore the full HR case study below:
-👉[View the full case study](https://docs.google.com/document/d/1UvtNh63Pqlk9doOYvelR3UggBd_6P2AbMk_uvuq11EQ/edit?usp=sharing)
+[View the full case study](https://docs.google.com/document/d/1UvtNh63Pqlk9doOYvelR3UggBd_6P2AbMk_uvuq11EQ/edit?usp=sharing)
 
 ## What I'd Explore Next
 As a next step to deepen this analysis:
