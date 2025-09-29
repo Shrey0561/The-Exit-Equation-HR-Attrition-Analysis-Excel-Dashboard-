@@ -1,26 +1,36 @@
-# The Exit Equation: Employee Attrition (Excel Dashboard)
- > Self-initiated project to practice HR analytics and Excel dashboarding skills.
+# The Exit Equation: Employee Attrition (Excel + Predictive Dashboard)
+ > Self-initiated project to practice HR analytics, Excel dashboarding, and predictive modeling skills.
 
 ## TL;DR
 **Problem**: **16% of employees were leaving,** driving up costs and operational risks; the reasons were unclear.
 
-**Process**: Analyzed **1,470 employees in Excel,** segmenting by department, role, tenure, satisfaction, and workload to uncover churn patterns.
+**Process**: Analyzed **1,470 employees in Excel,** segmenting by department, role, tenure, satisfaction, and workload. Then, **Logistic Regression** was used to predict attrition and identify key drivers.
 
 **Result**: 
  * **High-risk areas**: Sales (**20.63% attrition**), employees with overtime (**30.53%**)
  * **Key drivers**: Low work-life balance, poor job satisfaction, lower income bands, fresh hires
  * **Actionable takeaway**: Implement targeted onboarding, compensation adjustments, burnout prevention, and role support expected to reduce early exits.
 
-## Dashboard Preview
-This **Excel dashboard** highlights: 
+## Dashboard & Predictive Highlights
+## Excel Dashboard
 * **Churn by department**
 * **High-risk job roles**
 * **Employee satisfaction patterns**
-
-Interactive charts allow HR to **instantly spot trends and high-risk groups,** turning insights into action.
-
+  
 ![Dashboard Preview](dashboard_preview.png)
 
+Interactive charts enable HR to **instantly identify trends and high-risk groups,** while predictive modeling highlights the employees most likely to leave, turning insights into actionable steps.
+
+## Predictive Analysis (Logistic Regression)
+
+* Model predicts the probability of attrition for individual employees
+* **Key Insights from the Model:**
+   - OverTime increases the likelihood of leaving
+   - Higher Job Satisfaction decreases attrition
+   - Single employees and certain job roles are more likely to leave
+  - Feature importance charts & probability plots highlight actionable drivers
+
+![OverTime Preview](overtime_predictive_preview)
 
 ## Table of Contents
  - [Overview](#Overview)
@@ -40,6 +50,7 @@ This analysis leverages a **synthetic HR dataset of 1,470 employees** to uncover
  * Which departments and roles experience the **highest attrition**?
  * Are there **demographic or workload patterns** linked to exits?
  * How do **satisfaction, income, and tenure** influence turnover?
+ * What factors increase or decrease the likelihood of leaving (predictive)?
  * Which employee cohorts are at **greatest risk of leaving**?
 
 ## KPIs Tracked
@@ -88,7 +99,8 @@ Recommendation: Examine role distribution and promotion equity to investigate wh
 **Recommendation:** Use pulse surveys to detect early dissatisfaction and implement proactive interventions.
 
 ## Tools Used
-**Microsoft Excel** - Data cleaning, pivot tables, KPI tracking, and dashboard design.
+* **Microsoft Excel** - Data cleaning, pivot tables, KPI tracking, and dashboard design.
+* **Python (Pandas + scikit-learn + matplotlib):** Predictive modeling, feature importance, probability plots
   
 ## Case Study (Full Walkthrough)
 For a deeper look at the analysis logic, segmentation methodology, and strategic recommendations, explore the full HR case study below:
@@ -102,9 +114,9 @@ As a next step to deepen this analysis:
 
 ## What This Project Demonstrates
  - Ability to translate HR data into actionable business insights
- - Experience building clear, functional dashboards in **Excel**
- - Understanding of attrition metrics and their business impact
- - Exposure to the full analysis cycle - from data cleaning to stakeholder-ready presentation
+ - Experience combining descriptive dashboards with predictive analytics
+ - Understanding attrition metrics and predictive modeling workflow
+ - Exposure to full analysis cycle: data cleaning → visualization → predictive modeling → insights
 
 ## Let's Connect
 I'm building my career in data and HR analytics with a focus on understanding workplace dynamics through HR data. Feel free to reach out via:
