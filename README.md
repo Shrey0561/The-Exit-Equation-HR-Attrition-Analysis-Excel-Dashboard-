@@ -30,7 +30,7 @@ Interactive charts enable HR to **instantly identify trends and high-risk groups
    - Single employees and certain job roles are more likely to leave
   - Feature importance charts & probability plots highlight actionable drivers
 
-![OverTime Predictive Preview](overtime_predictive_preview)
+![Overtime Predictive Model Preview](overtime_predictive_preview.png)
 
 ## Table of Contents
  - [Overview](#Overview)
